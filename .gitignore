@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+.venv312/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pth
+*.pt
+
+# Nếu không muốn đưa dataset lên GitHub
+dataset/
+data/
+
+# Kết quả huấn luyện
+results/
